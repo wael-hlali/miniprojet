@@ -7,14 +7,14 @@ on:
 
 env:
   ECR_REPOSITORY: ecr
-  EKS_CLUSTER_NAME: cluster1 
+  EKS_CLUSTER_NAME: my-cluster
   AWS_REGION: us-east-1
 
 jobs:
   
   build:
     
-    name: Deployment
+    name: Deploy
     runs-on: ubuntu-latest
 
     steps:
